@@ -12,7 +12,7 @@ $finder = PhpCsFixer\Finder::create()
     ->notPath('bin/console')
     ->notPath('public/index.php');
 
-return (new PhpCsFixer\Config)
+return (new PhpCsFixer\Config())
     ->setRiskyAllowed(true)
     ->setRules([
         '@Symfony' => true,

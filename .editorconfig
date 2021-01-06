@@ -9,8 +9,11 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 indent_size = 4
 
+[*.php]
+ij_visual_guides = 80, 120
+
 [*.md]
 trim_trailing_whitespace = false
 
-[*.{twig,html,yml,yaml,js}]
+[*.{twig, html, yml, yaml, js}]
 indent_size = 2
