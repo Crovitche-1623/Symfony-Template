@@ -20,7 +20,7 @@ final class Kernel extends BaseKernel
     protected function configureContainer(ContainerConfigurator $container): void
     {
         /**
-         * @var  string $environment
+         * @var string $environment
          */
         $environment = $this->environment;
         $container->import('../config/{packages}/*.yaml');
@@ -41,7 +41,7 @@ final class Kernel extends BaseKernel
     protected function configureRoutes(RoutingConfigurator $routes): void
     {
         /**
-         * @var  string $environment
+         * @var string $environment
          */
         $environment = $this->environment;
         $routes->import('../config/{routes}/' . $environment . '/*.yaml');
