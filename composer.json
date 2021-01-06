@@ -1,6 +1,14 @@
 {
+    "authors": [
+        {
+            "name": "Thibault G.",
+            "email": "contact@thibaultg.info",
+            "homepage": "https://thibaultg.info",
+            "role": "Developer"
+        }
+    ],
     "type": "project",
-    "license": "proprietary",
+    "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
